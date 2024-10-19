@@ -1,55 +1,14 @@
-/**Credit
- **************************************************
- *
- * @file        simpleLightSensor_native.ino
- * @brief       Read all the values of the Simple Light Sensor.
- *              Also, see how to calibrate it!
- * 
- *              To successfully run the sketch:
- *              -Connect the breakout to your Dasduino board according to the diagrams below
- *              -Open Serial monitor at 115200 baud!
- *
- *              Simple Light Sensor: solde.red/333046
- *              Dasduino Core: www.solde.red/333037
- *              Dasduino Connect: www.solde.red/333034
- *              Dasduino ConnectPlus: www.solde.red/333033
- *
- * @authors     Robert Sorić @ soldered.com
- ***************************************************/
-
 #include "Simple-Light-Sensor-SOLDERED.h" // Include the required library
 
 // Define pins to use for A0 and D0
-// Make sure to change these so it suits your board
 #define SENSOR_A0_PIN A0
 #define SENSOR_D0_PIN 8
 
-/**Connecting diagram:
- *
- * Simple Light Sensor          Dasduino Core / Connect / ConnectPlus
- * VCC------------------------->VCC
- * GND------------------------->GND
- * A0-------------------------->SENSOR_A0_PIN, set by user
- * D0-------------------------->SENSOR_D0_PIN, set by user
- * 
- * Make sure the A0 pin supports analogRead!
- */
-
-/**How it works:
- * 
- * This sensor works on the principle that light will lower the resistance
- * of the light-sensitive resistor connected to the Light Sensor board.
- * Through this, a percentage can be calculated which indicates presence of light.
- * 
- * You can use the function getValue() to get that percentage.
- * 
+/*
  * 0.00% represents darkness.
  * 100.00% represents a bright light near the sensor.
- * 
- * You may also use isLightDetected to get a simple digital reading - is light detected or not?
+ *  isLightDetected will give a simple digital reading - is light detected or not?
  * The threshold of this reading is adjusted by the small potentiometer on the board.
- * 
- * The LED on the board will turn off if the threshold is reached.
 */
 
 // Create the sensor object on the set pins

@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    background-color: #283747;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.header-row:hover {
+    background-color: #34495e;
+}
+
+.title_image {
+    margin-right: 15px;
+}
+
+.title_text {
+    font-size: 24px;
+    margin: 0;
+}
+
+.bg_title {
+    background-color: #283747;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.location {
+    font-size: 16px;
+    margin: 0;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #f7f5f6;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bento-widget {
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.bento-widget:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    animation: pulse 0.5s ease 0s 1 normal both;
+}
+
+.bento-widget::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(252, 245, 249, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 0;
+}
+
+.bento-widget:hover::before {
+    opacity: 1;
+}
+
+.bento-title {
+    position: relative;
+    z-index: 1;
+}
+
+.dash-daq-gauge {
+    width: 100%;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease-in;
+}
+
+#patient_selector {
+    width: 300px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}

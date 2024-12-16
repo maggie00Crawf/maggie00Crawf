@@ -4,6 +4,7 @@ This project was a special part of my Co-Op with the Univeristy of Waterloo's ID
 
 ### Contents
 In this folder you will find the section of this project that i directly contributed to, along with some helper files to allow these projects to be run in full.
+* [Health Innovation Challenge README](Health%20Innovation%20Challenge%20README.md)- Intorduction to the Health Innovation Challenge problem space.
 * [Case Studies](Case%20Studies)- Folder contains the Case Study brief provided to students who chose to innovate within this domain.
     * [Detecting Irregular Speech Patterns](Case%20Studies/detecting_irregular_speech_pattern.md)
     * [Enhancing Volunteer Interactions](Case%20Studies/enhancing_volunteer_interactions.md)
@@ -18,5 +19,5 @@ In this folder you will find the section of this project that i directly contrib
     * [Arduino Code](Dashboard/Arduino%20Code)- Contains all ```.ino``` files used for the dashboard display and sensor data retrieval. 
     * [Python Code](Dashboard/Python%20Code)- Contains all ```.py``` files used for the dashboard display and sensor data retrieval. 
     * [Images](Dashboard/Images)- Folder holding Images used in ```SENSOR GUIDE.md```
-    
+
 

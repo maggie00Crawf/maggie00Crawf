@@ -14,7 +14,7 @@ In this folder you will find the section of this project that i directly contrib
     * [Enhancing Volunteer Interactions](Case%20Studies/enhancing_volunteer_interactions.md)
     * [Monitoring Risk Factors](Case%20Studies/monitoring_risk_factors.md)
     * [Promoting Physical Activity](Case%20Studies/promoting_physical_activity.md)
-    * [Takling Social Isolation](Case%20Studies/tackling_social_isolation.md)
+    * [Tackling Social Isolation](Case%20Studies/tackling_social_isolation.md)
 
 * [Dashboard](Dashboard)- Folder contains all code and instructions on how to set up an arduino microcontroller prototype that takes sensor input and produces a dashoboard display.
     * [Sensor Guide](Dashboard/SENSOR%20GUIDE.md)- Step-by-step guide to set up and run test code on each of the sensor modules contributing to the Dashboard system.

@@ -1,7 +1,7 @@
 ### Hi, I’m Maggie
 In this repository i hope you can learn more About Me and My Projects related to Computer Programming and Engineering. 
 
-Please take a look at the [Health Hub Folder]() to see my work in Arduino and Python creating demo solutions for a Biomedical Engineering Hackathon!
+Please take a look at the [Health Hub Inovation Challenge](https://github.com/maggie00Crawf/maggie00Crawf/tree/main/Health%20Innovation%20Challenge) to see my work in Arduino and Python creating demo solutions for a Biomedical Engineering Hackathon!
 # About Me
 I am a 3rd year Biomedical engineering student at the university of waterloo, and I am also a varsity swimmer/ competitive swimmer of 14 years. My most familiar coding scripts are __Python__ and __Arduino__, with some experience in __C++__.
 
